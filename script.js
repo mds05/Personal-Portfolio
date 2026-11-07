@@ -1,7 +1,8 @@
 const phrases = [
     "Hi! It's Shahriar.",
-    "Computer Science Major",
-    "Aspiring Software Engineer."
+    "Computer Science Student",
+    "Aspiring Software Engineer.",
+    "Exploring Artificial Intelligence."
 ];
 const intro = document.getElementById("intro");
 let phraseIndex = 0;
