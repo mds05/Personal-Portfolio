@@ -209,3 +209,23 @@ section{
         padding:30px 20px;
     }
 }
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    gap: 24px;
+    margin: 24px 0;
+}
+.article-card {
+    min-width: 0;
+    padding: 24px;
+    background: #181818;
+    border: 1px solid #2A2A2A;
+    border-radius: 12px;
+    overflow-wrap: anywhere;
+}
+.article-card h2 { font-size: 21px; margin: 0 0 12px; }
+.article-card a, .writing-link { color: #5CC8FF; text-underline-offset: 4px; }
+.article-card time { color: #aaa; font-size: 14px; }
+.article-card p { margin-bottom: 0; }
+#article-status:empty { display: none; }
